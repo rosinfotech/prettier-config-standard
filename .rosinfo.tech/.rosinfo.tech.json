@@ -1,0 +1,36 @@
+{
+    "backup": {
+        "except": [
+            "Thumbs.db",
+            "_MAC_OS",
+            "/.DS_Store",
+            "/.build/",
+            "/.dist/",
+            "/.git/",
+            "/.idea/",
+            "/.npm/",
+            "/.process",
+            "/.rosinfo.tech.backup/",
+            "/.rosinfo.tech.secret",
+            "/.rosinfo.tech.secret.json",
+            "/.vscode/",
+            "/build/",
+            "/dist/",
+            "/node_modules/",
+            "/npm/"
+        ]
+    },
+    "publish": {
+        "dir": "npm",
+        "filesProcessor": [
+            [
+                "copy",
+                {
+                    "./index.js": "./npm/index.js",
+                    "./package.json": "./npm/package.json"
+                }
+            ]
+        ]
+    },
+    "version": "0.0.4"
+}

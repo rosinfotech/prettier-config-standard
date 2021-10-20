@@ -1,0 +1,16 @@
+{
+    "name": "@rosinfo.tech/prettier-config-standard",
+    "version": "0.0.4",
+    "access": "public",
+    "main": "index.js",
+    "publishConfig": {
+        "access": "public"
+    },
+    "keywords": [
+        "prettier",
+        "prettierconfig",
+        "config",
+        "styleguide",
+        "rosinfotech"
+    ]
+}
