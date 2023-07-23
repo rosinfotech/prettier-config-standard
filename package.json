@@ -1,6 +1,6 @@
 {
     "name": "@rosinfo.tech/prettier-config-standard",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "access": "public",
     "main": "index.js",
     "publishConfig": {
