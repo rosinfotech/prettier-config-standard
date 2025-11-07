@@ -1,6 +1,6 @@
 {
     "name": "@rosinfo.tech/prettier-config-standard",
-    "version": "0.0.8",
+    "version": "0.0.9",
     "access": "public",
     "main": "index.js",
     "publishConfig": {
@@ -12,5 +12,11 @@
         "config",
         "styleguide",
         "rosinfotech"
-    ]
+    ],
+    "devDependencies": {
+        "prettier": "^3.6.2"
+    },
+    "peerDependencies": {
+        "prettier": "^3.6.2"
+    }
 }
